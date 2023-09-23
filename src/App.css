@@ -1,0 +1,69 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #FFF5E0;
+
+}
+
+nav{
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  height: 8vh;
+
+  & a{
+    color: #646cff;
+    font-size: 1.5em;
+    padding: 4px;
+  }
+}
+
+div.titulo__cabecalho{
+  color: #C70039;
+}
+
+
+hr{
+  border-color: #E49191;
+}
+/* home */
+
+div.aparelhos{
+   display: grid;
+   justify-items: end;
+   margin-top: 10px;
+}
+
+div.container1{
+  display: flex;
+}
+
+
+
+
+
+
+
+
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 87vh;
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 5vh;
+  background-color: #FF6969;
+  color: white;
+  font-weight: bold;
+}
+
