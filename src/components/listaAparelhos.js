@@ -1,5 +1,5 @@
 
-export const listaProdutos = [
+export const listaAparelhos = [
     {
         id: 1,
         nome: 'Teclado',

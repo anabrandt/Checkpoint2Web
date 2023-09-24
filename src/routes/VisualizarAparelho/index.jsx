@@ -6,53 +6,52 @@ import img4 from '../VisualizarAparelho/img4.svg'
 
 export default function VisualizarAparelho(){
     return(
-        <main>
-            <div>
+        <header>
+            <section className="branco__visualizacao">
+            <div className="iponei__branco">
             <h1>iPônei 15  Pro de 128gb - Rosa </h1>                
             </div>
 
-            <div>-15% OFF</div>
-
-    <div class="carousel">
-                <div class="carousel-item">
-                <img src={img1}></img>
-                </div>
-
-               <div class="carousel-item">
-               <img src={img2}></img>
-               </div>
-
-             <div class="carousel-item">
-             <img src={img3}></img>
-            </div>
-
-            <div class="carousel-item">
-             <img src={img4}></img>
-            </div>    
+            <div className="box__branco">-15% OFF</div>
+    <div className="iponei__rosa">
+        <img className="iponei" src={img1} />
+        <img className="iponei" src={img2} />
+        <img className="iponei" src={img3} />
+        <img className="iponei" src={img4} />
     </div>
 
-    <div>R$4.300,00  no pix</div>
+    <div className="promocao__paragrafo2"> <p > <strong> R$4.300,00  no pix</strong> </p></div>
 
-    <div>
-        <button>Comprar</button>
+    <div className="button__comprar">
+        <button className="comprar__button">Comprar</button>
+    </div>
+</section>
+
+
+
+<section >
+
+    <div className="ponei__faq">
+        <h2 className="faq__ponei">Por que iPônei</h2>
+        <h2 className="faq__ponei2">Não existe nada como o iPônei</h2>
     </div>
 
-    <div>
-        <h2>Por que iPônei</h2>
-        <h2>Não exite nada como o iphonei</h2>
+<div className="iponei__benef">
+
+    <div className="boxbenef">
+        <p><strong>Simples e intuitivo. Basta dar um toque ou deslizar o dedo para fazer tudo. </strong></p>
     </div>
 
-    <div>
-        <p>Simples e intuitivo. Basta dar um toque ou deslizar o dedo para fazer tudo.</p>
+    <div className="boxbenef2">
+        <p> <strong> O chip criado pela Ponei oferece velocidade, consumo de energia eficiente e inteligência.</strong> </p>
     </div>
 
-    <div>
-        <p>O chip criado pela Ponei oferece velocidade, consumo de energia eficiente e inteligência.</p>
+    <div className="boxbenef3">
+        <p> <strong> O iPônei foi desenvolvido para resistir ao tempo e manter mais seu valor do que outros smartphones.</strong></p>
     </div>
+</div>
 
-    <div>
-        <p>O iPônei foi desenvolvido para resistir ao tempo e manter mais seu valor do que outros smartphones.</p>
-    </div>
-        </main>
+ </section>   
+        </header>
     )
 }

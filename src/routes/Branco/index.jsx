@@ -35,20 +35,24 @@ export default function Branco(){
 
     <div className="ponei__faq">
         <h2 className="faq__ponei">Por que iPônei</h2>
-        <h2 className="faq__ponei2">Não exite nada como o iphonei</h2>
+        <h2 className="faq__ponei2">Não existe nada como o iPônei</h2>
     </div>
 
-    <div>
-        <p>Simples e intuitivo. Basta dar um toque ou deslizar o dedo para fazer tudo.</p>
+<div className="iponei__benef">
+
+    <div className="boxbenef">
+        <p><strong>Simples e intuitivo. Basta dar um toque ou deslizar o dedo para fazer tudo. </strong></p>
     </div>
 
-    <div>
-        <p>O chip criado pela Ponei oferece velocidade, consumo de energia eficiente e inteligência.</p>
+    <div className="boxbenef2">
+        <p> <strong> O chip criado pela Ponei oferece velocidade, consumo de energia eficiente e inteligência.</strong> </p>
     </div>
 
-    <div>
-        <p>O iPônei foi desenvolvido para resistir ao tempo e manter mais seu valor do que outros smartphones.</p>
+    <div className="boxbenef3">
+        <p> <strong> O iPônei foi desenvolvido para resistir ao tempo e manter mais seu valor do que outros smartphones.</strong></p>
     </div>
+</div>
+
  </section>   
         </header>
     )
