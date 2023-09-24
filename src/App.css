@@ -6,6 +6,18 @@
 
 }
 
+h1{
+  color: #C70039;
+  text-align: left;
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+h2{
+  color: #C70039;
+}
+
+/* NAVBAR e Estilos para a barra de navegação */
 nav{
   display: flex;
   width: 100vw;
@@ -20,28 +32,48 @@ nav{
   }
 }
 
+
+nav {
+  padding: 10px;
+  
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: black;
+  text-decoration: none;
+  padding: 5px 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border-radius: 3px;
+}
+
+.navbar{
+  height: 80px;
+  
+}
+
+.navbar_logotipo {
+  padding: 5px;    
+}
+
+
 div.titulo__cabecalho{
   color: #C70039;
 }
 
 
-hr{
-  border-color: #E49191;
-}
 /* home */
-
-div.aparelhos{
-   display: grid;
-   justify-items: end;
-   margin-top: 10px;
-}
-
-div.container1{
-  display: flex;
-}
-
-
-
 
 
 
@@ -65,5 +97,8 @@ footer{
   background-color: #FF6969;
   color: white;
   font-weight: bold;
+  position: fixed;
+  left: 0;
+  bottom: 0;
 }
 
