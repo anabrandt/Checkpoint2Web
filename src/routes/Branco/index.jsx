@@ -1,42 +1,41 @@
 import { Link } from "react-router-dom"
+import img1 from '../Branco/img1.svg'
+import img2 from '../Branco/img2.svg'
+import img3 from '../Branco/img3.svg'
+import img4 from '../Branco/img4.svg'
 
 
 export default function Branco(){
     return(
-        <main>
-            <div>
+        
+        <header>
+            <section className="branco__visualizacao">
+            <div className="iponei__branco">
             <h1>iPônei 15  Pro de 128gb - Branco </h1>                
             </div>
 
-            <div>-15% OFF</div>
-
-    <div class="carousel">
-                <div class="carousel-item">
-                <img src={img1}></img>
-                </div>
-
-               <div class="carousel-item">
-               <img src={img2}></img>
-               </div>
-
-             <div class="carousel-item">
-             <img src={img3}></img>
-            </div>
-
-            <div class="carousel-item">
-             <img src={img4}></img>
-            </div>    
+            <div className="box__branco">-15% OFF</div>
+    <div className="iponei__rosa">
+        <img className="iponei" src={img1} />
+        <img className="iponei" src={img2} />
+        <img className="iponei" src={img3} />
+        <img className="iponei" src={img4} />
     </div>
 
-    <div>R$4.300,00  no pix</div>
+    <div className="promocao__paragrafo2"> <p > <strong> R$4.300,00  no pix</strong> </p></div>
 
-    <div>
-        <button>Comprar</button>
+    <div className="button__comprar">
+        <button className="comprar__button">Comprar</button>
     </div>
+</section>
 
-    <div>
-        <h2>Por que iPônei</h2>
-        <h2>Não exite nada como o iphonei</h2>
+
+
+<section >
+
+    <div className="ponei__faq">
+        <h2 className="faq__ponei">Por que iPônei</h2>
+        <h2 className="faq__ponei2">Não exite nada como o iphonei</h2>
     </div>
 
     <div>
@@ -50,6 +49,7 @@ export default function Branco(){
     <div>
         <p>O iPônei foi desenvolvido para resistir ao tempo e manter mais seu valor do que outros smartphones.</p>
     </div>
-        </main>
+ </section>   
+        </header>
     )
 }

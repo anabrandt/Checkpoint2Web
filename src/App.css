@@ -35,7 +35,6 @@ nav{
 
 nav {
   padding: 10px;
-  
 }
 
 nav ul {
@@ -73,10 +72,102 @@ div.titulo__cabecalho{
 }
 
 
-/* home */
+div.promocao__paragrafo{
+  color: #7F7F7F;
+  align-items: center;
+  margin: 10px;
+  width: 30%;
+}
+
+div.promocao__paragrafo2{
+  color: #7F7F7F;
+  margin: 25px;
+  align-items: center;
+  display: grid;
+}
+
+p{
+  font-size: 1.2em;
+}
+
+div.titulo__conheca{
+  margin: 10px;
+}
+
+/* secao lancamentos */
+
+div.titulo__lancamento{
+  padding: 10px;
+}
+
+div.box__desconto{
+  width: 3%;
+  height: 3%;
+  background-color: red;
+  color: white;
+  margin: 1%;
+}
+div.box__branco{
+  width: 6%;
+  background-color: red;
+  color: white;
+  margin: 1%;  
+}
+
+div.button__comprar{
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+button.comprar__button{
+  background-color: #94C330;
+  color: white;
+}
 
 
+section.descontos{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  margin: 1%;
+}
+div.container{
+  display: grid;
+}
 
+button.button__section{
+  background-color: #646cff;
+  color: white;
+  align-self: flex-start;
+}
+
+h2.faq__ponei{
+  color: #7F7F7F;
+  margin: 2%;
+  font-size: 40px;
+}
+
+h2.faq__ponei2{
+  color: #7F7F7F;
+  margin: 2%;
+  font-size: 40px;
+}
+
+
+/* visualizar aparelho */
+section.branco__visualizacao{
+  display: grid;
+}
+
+div.iponei__rosa{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+}
+img.iponei{
+  max-width: 100%;
+}
 
 
 main{
@@ -94,8 +185,7 @@ footer{
   align-items: center;
   width: 100vw;
   height: 5vh;
-  background-color: #FF6969;
-  color: white;
+  background: #FF6969;
   font-weight: bold;
   position: fixed;
   left: 0;
