@@ -47,7 +47,7 @@ export default function Home(){
         </div>
 
         <div className="promocao__paragrafo2">
-            <p> <strong> O novo iPônei 15 está com 10 off  para quem me seguir no instagram </strong></p>
+            <p> <strong> O novo iPônei 15 está com 10% off  para quem me seguir no instagram </strong></p>
         </div>
 </section>
   

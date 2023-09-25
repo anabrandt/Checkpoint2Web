@@ -6,19 +6,21 @@ import preto from '../Aparelhos/preto.svg'
 import rosa from '../Aparelhos/rosa.svg'
 import vermelho from '../Aparelhos/vermelho.svg'
 
-export default function Produtos(){
+export default function Aparelhos(){
 
-   import { listaAparelhos } from "../../components/listaAparelhos.js"
-   const ListaAparelhos = () => {
     return(
         <header>
             <section className="aparelhos__section">
 
             <div className="container">
                 <img src={branco}></img>
-                <p> <strong> R$4.300,00</strong></p>              
-
-                <Link to='/aparelhos'><button className="comprar">Comprar</button></Link>
+                <p> <strong>  R$4.300,00</strong></p>  
+  
+                <Link to='/aparelhos'>
+                    <button 
+                    className="comprar"
+ 
+                    >Comprar</button></Link>
             </div>
 
             <div className="container">
@@ -61,5 +63,4 @@ export default function Produtos(){
            </section>
         </header>
     )
-   }
 }

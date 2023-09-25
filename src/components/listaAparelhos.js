@@ -1,19 +1,13 @@
 
-export const listaAparelhos = [
-    {
-        id: 1,
-        nome: 'Teclado',
-        preco: 150
-    },
-    {
-        id:2,
-        nome: 'Mouse',
-        preco: 120
-    },
-    {
-        id:3,
-        nome: 'Monitor',
-        preco: 950
-    }
 
-]
+
+// export const listaAparelhos = [
+//     {
+//       id: 1,
+//       modelo: "iponei 14 pro max",
+//       marca: "iPonei",
+//       descricao: "Simples e intuitivo. Basta dar um toque ou deslizar o dedo para fazer tudo..",
+//     //   preco: 4.300,
+//     },
+//   ];
+  
