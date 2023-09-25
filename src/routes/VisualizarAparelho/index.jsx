@@ -23,7 +23,7 @@ export default function VisualizarAparelho(){
     <div className="promocao__paragrafo2"> <p > <strong> R$4.300,00  no pix</strong> </p></div>
 
     <div className="button__comprar">
-        <button className="comprar__button">Comprar</button>
+    <button className="comprar__button">Comprar</button>
     </div>
 </section>
 
